@@ -42,12 +42,12 @@ class App extends Component {
 //    console.log("hai cliccato su id: " + id);
  
     if (this.state.listaelementi[id].comprato) {
-        console.log("check");
+        //console.log("check");
         listaelementi.push(listaelementi[id]);
         listaelementi.splice(id,1);
       
     } else {
-        console.log("decheck");     
+        //console.log("decheck");     
         listaelementi.unshift(listaelementi[id]);
         listaelementi.splice(id+1,1);      
     }
